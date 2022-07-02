@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+}
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav1 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+    font-family: Product Sans;
+    font-size: 3.5em;
+}
+.header-nav2 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+div > a, div > img {
+    padding: 0 8px;
+}
+.header-img:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 10px;
+}
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZSJFAumwegdm0LZdjqr5-oayXSOefg.woff2); format:('.woff2');
+}
+h1 {
+    font-family: Product Sans;
+    font-size: 5.5em;
+    margin: 150px auto 0 auto;
+}
+.my-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+}
+.my-input-container > input {
+    flex-grow: 1;
+}
+#justinsinput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 24px;
+    margin: 25px auto 0 auto;
+}
+#advanced_form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.advanced_input {
+    margin-top: 15px;
+    width: 400px;
+}
+#input-search {
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;
+    height: 36px;
+    width: 125px;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;    
+}
+#advanced-input-search {
+    border-radius: 5px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    height: 36px;
+    width: 125px;
+    padding: 0 20px;
+    margin-top: 10px;
+    margin-left: 450px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro; 
+}
+img:hover {
+    cursor: pointer;
+}
+.my-button-container {
+    padding-top: 53px;
+    margin: auto;
+}
+button {
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+#footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+@media (max-width: 630px) {
+    #footer-nav {
+        flex-direction: column;
+    }
+    #footer-left {
+        justify-content: center;
+    }
+    #footer-right {
+        justify-content: center;
+    }
+    .my-input-container {
+        width: 95vw;
+    }
+}
+@media (max-height: 522px) {
+    body {
+        overflow-x: hidden;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    footer {
+        position: relative;
+    }
+}
+@media (max-height: 570px) and (max-width: 630px) {
+    body {
+        overflow-x: hidden;
+    }
+    section {
+        margin-bottom: 13px;
+    }
+    footer {
+        position: relative;
+    }
+}
+.label_p {
+    width: 167px;
+}
+.label_advanced {
+    display: flex;
+    flex-direction: center;
+}
+.advanced_heading {
+    margin-left: 0px;
+    color: #D84437;
+    border-bottom: 1px solid #ebebeb;
+}
+.advanced_submit {
+    float: right;
+}
+.images {
+    color: #4285F4;
+    position: relative;
+    left: 1000px;
+    
+}
